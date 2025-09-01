@@ -1,0 +1,47 @@
+# --- Visual Studio Defaults ---
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+*.psmdcp
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Visual Studio Code
+.vscode/
+
+# Resharper / Rider
+_ReSharper*/
+*.DotSettings.user
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+*.cache
+*.swp
+
+# --- Custom Ignores ---
+# Ignore MajFX.Demo project
+MajFX.Demo/
+MajFX.Demo/**
+
+MajFXSolution.sln
